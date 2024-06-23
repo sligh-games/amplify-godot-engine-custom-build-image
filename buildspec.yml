@@ -12,9 +12,9 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
-      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION public.ecr.aws/$GODOT_IMAGE_NAME:$GODOT_VERSION      
+      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION public.ecr.aws/f7u9w0t1/$GODOT_IMAGE_NAME:$GODOT_VERSION      
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push public.ecr.aws/$GODOT_IMAGE_NAME:$GODOT_VERSION
+      - docker push public.ecr.aws/f7u9w0t1/$GODOT_IMAGE_NAME:$GODOT_VERSION
