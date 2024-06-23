@@ -6,7 +6,7 @@ phases:
       - echo GODOT_VERSION=$GODOT_VERSION
       - echo GODOT_IMAGE_NAME=$GODOT_IMAGE_NAME
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
+      - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
   build:
     commands:
       - echo Build started on `date`
