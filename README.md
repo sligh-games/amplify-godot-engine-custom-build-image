@@ -22,12 +22,6 @@ The [Wiki](https://github.com/aws-samples/amplify-godot-engine/wiki) contains ev
 | [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | [amplify-godot-engine/4.2.1]() |
 | [4.2](https://godotengine.org/download/archive/4.2-stable) | [amplify-godot-engine/4.2]() |
 
-### Development
-
-| Version | Image |
-| --- | --- | 
-| [4.4-dev3](https://godotengine.org/download/archive/4.4-dev3) | [amplify-godot-engine/4.4]() |
-
 ### Instructions
 
 1. Update GODOT_ENGINE_VERSION in the buildspec.yml
