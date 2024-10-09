@@ -6,21 +6,23 @@ This project contains to docker files to create a custom build image to build an
 
 The [Wiki](https://github.com/aws-samples/amplify-godot-engine/wiki) contains everything you want to know about getting started with AWS Amplify with the Godot Engine.
 
-## Versions
+## Images
+
+AWS Amplify Godot Engine Custom Build Images can be found on [AWS Amplify Godot Engine Elastic Container Registry (ECR)](https://gallery.ecr.aws/f7u9w0t1/amplify-godot-engine/)
 
 ### Latest
 
-| Version | Image |
-| --- | --- | 
-| [4.3](https://godotengine.org/download/archive/4.3-stable) | [amplify-godot-engine/4.3]() |
+| Version | Tag | URI | 
+| --- | --- | --- | 
+| [4.3](https://godotengine.org/download/archive/4.3-stable) | ```amplify-godot-engine/4.3``` | ```public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.3``` |
 
 ### Stable
 
-| Version | Image |
-| --- | --- | 
-| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | [amplify-godot-engine/4.2.2]() |
-| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | [amplify-godot-engine/4.2.1]() |
-| [4.2](https://godotengine.org/download/archive/4.2-stable) | [amplify-godot-engine/4.2]() |
+| Version | Tag | URI |
+| --- | --- | --- | 
+| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | ```amplify-godot-engine/4.2.2``` | ```public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.2.2``` |
+| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```amplify-godot-engine/4.2.1``` | ```public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.2.1``` |
+| [4.2](https://godotengine.org/download/archive/4.2-stable) | ```amplify-godot-engine/4.2``` | ```public.ecr.aws/f7u9w0t1/amplify-godot-engine:4.2``` |
 
 ### Instructions
 
