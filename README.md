@@ -4,10 +4,26 @@ This project contains to docker files to create a custom build image to build an
 
 ## Releases
 
+### Latest
+
 | Version | Image |
 | --- | --- | 
-| 4.2.x |  |
-| 4.3.x |  |
+| [4.3](https://godotengine.org/download/archive/4.3-stable) | [amplify-godot-engine/4.3]() |
+
+
+### Stable
+
+| Version | Image |
+| --- | --- | 
+| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | [amplify-godot-engine/4.2.2]() |
+| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | [amplify-godot-engine/4.2.1]() |
+| [4.2](https://godotengine.org/download/archive/4.2-stable) | [amplify-godot-engine/4.2]() |
+
+### Development
+
+| Version | Image |
+| --- | --- | 
+| [4.4-dev3](https://godotengine.org/download/archive/4.4-dev3) | [amplify-godot-engine/4.4]() |
 
 ## Wiki
 
