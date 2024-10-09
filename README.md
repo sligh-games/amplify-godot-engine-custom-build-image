@@ -32,7 +32,7 @@ The [Wiki](https://github.com/aws-samples/amplify-godot-engine/wiki) contains ev
     pre_build:
         commands:
         - GODOT_IMAGE_NAME=amplify-godot-engine
-        - GODOT_VERSION=4.4-dev3
+        - GODOT_VERSION=4.3
         - echo Logging in to Amazon ECR...
         - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
     ...
@@ -40,7 +40,7 @@ The [Wiki](https://github.com/aws-samples/amplify-godot-engine/wiki) contains ev
 2. Commit the new version of the buildspec.yml
     ```
     git add -A
-    git commit -m "bump godot version to 4.4-dev3"
+    git commit -m "bump godot version to 4.3"
     ```
 3. Create a new version branch. Do not create a branch for each Godot Engine patch version.
     ```
@@ -48,11 +48,11 @@ The [Wiki](https://github.com/aws-samples/amplify-godot-engine/wiki) contains ev
     ```
 4. Push the new branch to GitHub
     ```
-    git push --set-upstream origin 4.4
+    git push --set-upstream origin 4.3
     ```
 5. Push the new branch to CodeCommit
     ```
-    git push --set-upstream codecommit 4.4
+    git push --set-upstream codecommit 4.3
     ```
 
 ## Security
