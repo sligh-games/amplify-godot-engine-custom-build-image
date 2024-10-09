@@ -1,6 +1,6 @@
 ## AWS Amplify for Godot Engine - Custom Build Image
 
-This project contains to docker files to create a custom build image to build and export Godot Engine games for all supported platforms.
+This project contains a docker file to create a custom build image for build and export Godot Engine games for all supported platforms.
 
 ## Wiki
 
