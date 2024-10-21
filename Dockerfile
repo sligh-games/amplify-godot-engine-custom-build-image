@@ -1,4 +1,4 @@
-ARG GODOT_VERSION="4.2"
+ARG GODOT_VERSION="4.3"
 
 FROM barichello/godot-ci:$GODOT_VERSION
 
