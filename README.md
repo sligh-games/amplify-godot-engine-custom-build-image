@@ -1,5 +1,10 @@
 ## AWS Amplify for Godot Engine - Custom Build Image
 
+[![GitHub release](https://img.shields.io/github/release/aws-samples/amplify-godot-engine-custom-build-image)](https://github.com//aws-samples/amplify-godot-engine-custom-build-image/releases)
+[![Open Bugs](https://img.shields.io/github/issues/aws-samples/amplify-godot-engine-custom-build-image/bug?color=d73a4a&label=bugs)](https://github.com/aws-samples/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Feature Requests](https://img.shields.io/github/issues/aws-samples/amplify-godot-engine-custom-build-image/feature-request?color=ff9001&label=feature%20requests)](https://github.com/aws-samples/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
+[![Closed Issues](https://img.shields.io/github/issues-closed/aws-samples/amplify-godot-engine-custom-build-image?color=%2325CC00&label=issues%20closed)](https://github.com/aws-samples/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aclosed+)
+
 This project contains a docker file to create a custom build image for build and export Godot Engine games for all supported platforms.
 
 _Note: “The sample code; software libraries; command line tools; proofs of concept; templates; or other related technology (including any of the foregoing that are provided by our personnel) is provided to you as AWS Content under the AWS Customer Agreement, or the relevant written agreement between you and AWS (whichever applies). You should not use this AWS Content in your production accounts, or on production or other critical data. You are responsible for testing, securing, and optimizing the AWS Content, such as sample code, as appropriate for production grade use based on your specific quality control practices and standards. Deploying AWS Content may incur AWS charges for creating or using AWS chargeable resources, such as running Amazon EC2 instances or using Amazon S3 storage.”_
