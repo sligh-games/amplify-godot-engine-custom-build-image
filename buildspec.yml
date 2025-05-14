@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - GODOT_IMAGE_NAME=amplify-godot-engine
+      - GODOT_IMAGE_NAME=sligh-games/amplify-godot-engine
       - echo Logging in to Amazon ECR...
       - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
   build:
@@ -11,9 +11,9 @@ phases:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
-      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION public.ecr.aws/f7u9w0t1/$GODOT_IMAGE_NAME:$GODOT_VERSION      
+      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION public.ecr.aws/o8b4i8t7/$GODOT_IMAGE_NAME:$GODOT_VERSION      
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push public.ecr.aws/f7u9w0t1/$GODOT_IMAGE_NAME:$GODOT_VERSION
+      - docker push public.ecr.aws/o8b4i8t7/$GODOT_IMAGE_NAME:$GODOT_VERSION
