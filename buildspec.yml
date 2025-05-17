@@ -3,25 +3,19 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      # - ECR_PUBLIC_REPOSITORY=public.ecr.aws
-      # - PUBLIC_SLIGH_GAMES_REPOSITORY=$ECR_PUBLIC_REPOSITORY/p2e1p0d6
-      - ECR_PRIVATE_REPOSITORY=709825985650.dkr.ecr.us-east-1.amazonaws.com
-      - PRIVATE_SLIGH_GAMES_REPOSITORY=$ECR_PRIVATE_REPOSITORY/sligh-games
-      - GODOT_IMAGE_NAME=amplify-godot-engine
       - echo Logging in to Amazon ECR...
-      # - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PUBLIC_REPOSITORY
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PRIVATE_REPOSITORY
+      - ECR_PUBLIC_REGISTRY=public.ecr.aws
+      - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PUBLIC_REGISTRY
   build:
     commands:
       - echo Build started on `date`
-      - echo Building the Docker image...          
+      - echo Building the Docker image...      
+      - ECR_PUBLIC_REPOSITORY=$ECR_PUBLIC_REGISTRY/sligh-games
+      - GODOT_IMAGE_NAME=amplify-godot-engine
       - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
-      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $PRIVATE_SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
-      # - docker tag <<local-repo>>:<<local-image-tag>> 709825985650.dkr.ecr.us-east-1.amazonaws.com/sligh-games/amplify-godot-engine:<<image-tag>>
+      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $ECR_PUBLIC_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push $PRIVATE_SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
-      # - docker push 709825985650.dkr.ecr.us-east-1.amazonaws.com/sligh-games/amplify-godot-engine:$GODOT_VERSION
-      # - aws ecr describe-images --registry-id 709825985650 --repository-name sligh-games/amplify-godot-engine --region us-east-1
+      - docker push $ECR_PUBLIC_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION

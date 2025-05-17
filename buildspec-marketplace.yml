@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - ECR_PRIVATE_REGISTRY_ID=709825985650
+      - ECR_PRIVATE_REGISTRY=$ECR_PRIVATE_REGISTRY_ID.dkr.ecr.us-east-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PRIVATE_REGISTRY
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...      
+      - ECR_PRIVATE_REPOSITORY=$ECR_PRIVATE_REGISTRY/sligh-games
+      - GODOT_IMAGE_NAME=amplify-godot-engine
+      - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
+      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $PRIVATE_SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push $PRIVATE_SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
+      - aws ecr describe-images --registry-id $ECR_PRIVATE_REGISTRY_ID --repository-name $GODOT_IMAGE_NAME:$GODOT_VERSION --region us-east-1
