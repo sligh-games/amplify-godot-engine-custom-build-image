@@ -22,6 +22,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push $SLIGH_GAMPRIVATE_SLIGH_GAMES_REPOSITORYES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
+      - docker push $PRIVATE_SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
       # - docker push 709825985650.dkr.ecr.us-east-1.amazonaws.com/sligh-games/amplify-godot-engine:$GODOT_VERSION
       # - aws ecr describe-images --registry-id 709825985650 --repository-name sligh-games/amplify-godot-engine --region us-east-1
