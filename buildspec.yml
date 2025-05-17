@@ -7,7 +7,7 @@ phases:
       # - PUBLIC_SLIGH_GAMES_REPOSITORY=$ECR_PUBLIC_REPOSITORY/p2e1p0d6
       - ECR_PRIVATE_REPOSITORY=709825985650.dkr.ecr.us-east-1.amazonaws.com
       - PRIVATE_SLIGH_GAMES_REPOSITORY=$ECR_PRIVATE_REPOSITORY/sligh-games
-      # - GODOT_IMAGE_NAME=amplify-godot-engine
+      - GODOT_IMAGE_NAME=amplify-godot-engine
       - echo Logging in to Amazon ECR...
       # - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PUBLIC_REPOSITORY
       - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PRIVATE_REPOSITORY
