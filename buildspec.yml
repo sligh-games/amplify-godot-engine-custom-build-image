@@ -3,15 +3,20 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - ECR_PUBLIC_REPOSITORY=public.ecr.aws
+      # - SLIGH_GAMES_REPOSITORY=$ECR_PUBLIC_REPOSITORY/p2e1p0d6
+      - ECR_PRIVATE_REPOSITORY=709825985650.dkr.ecr.us-east-1.amazonaws.com
+      - SLIGH_GAMES_REPOSITORY=$ECR_PRIVATE_REPOSITORY/sligh-games
       - GODOT_IMAGE_NAME=amplify-godot-engine
       - echo Logging in to Amazon ECR...
-      - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
+      # - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PUBLIC_REPOSITORY
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin ECR_PRIVATE_REPOSITORY
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
-      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION public.ecr.aws/p2e1p0d6/$GODOT_IMAGE_NAME:$GODOT_VERSION      
+      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $SLIGH_GAMES_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION      
   post_build:
     commands:
       - echo Build completed on `date`
