@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...      
-      - ECR_PUBLIC_REPOSITORY=$ECR_PUBLIC_REGISTRY/sligh-games
+      - ECR_PUBLIC_REPOSITORY=$ECR_PUBLIC_REGISTRY/p2e1p0d6
       - GODOT_IMAGE_NAME=amplify-godot-engine
       - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
       - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $ECR_PUBLIC_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
