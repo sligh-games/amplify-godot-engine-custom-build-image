@@ -10,9 +10,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - echo Building the Docker image...      
-      - ECR_PRIVATE_REPOSITORY=$ECR_PRIVATE_REGISTRY/sligh-games
+      - echo Building the Docker image...  
+      - REPOSITORY_ALIAS=sligh-games
       - GODOT_IMAGE_NAME=amplify-godot-engine
+      - ECR_PRIVATE_REPOSITORY=$ECR_PRIVATE_REGISTRY/$REPOSITORY_ALIAS
       - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
       - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $ECR_PRIVATE_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
   post_build:
@@ -20,4 +21,4 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push $ECR_PRIVATE_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
-      - aws ecr describe-images --registry-id $ECR_PRIVATE_REGISTRY_ID --repository-name $GODOT_IMAGE_NAME:$GODOT_VERSION --region us-east-1
+      - aws ecr describe-images --registry-id $ECR_PRIVATE_REGISTRY_ID --repository-name $REPOSITORY_ALIAS:$GODOT_IMAGE_NAME --region us-east-1
