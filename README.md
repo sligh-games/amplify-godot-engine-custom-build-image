@@ -1,9 +1,9 @@
-## Sligh Games Godot Engine - Custom Build Image
+## AWS Amplify Godot Engine - Custom Build Image
 
-[![GitHub release](https://img.shields.io/github/release/sligh-games/godot-engine-custom-build-image)](https://github.com/sligh-games/godot-engine-custom-build-image/releases)
-[![Open Bugs](https://img.shields.io/github/issues/sligh-games/godot-engine-custom-build-image/bug?color=d73a4a&label=bugs)](https://github.com/sligh-games/godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Feature Requests](https://img.shields.io/github/issues/sligh-games/godot-engine-custom-build-image/feature-request?color=ff9001&label=feature%20requests)](https://github.com/sligh-games/godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
-[![Closed Issues](https://img.shields.io/github/issues-closed/sligh-games/godot-engine-custom-build-image?color=%2325CC00&label=issues%20closed)](https://github.com/sligh-games/godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aclosed+)
+[![GitHub release](https://img.shields.io/github/release/sligh-games/amplify-godot-engine-custom-build-image)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/releases)
+[![Open Bugs](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/bug?color=d73a4a&label=bugs)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Feature Requests](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/feature-request?color=ff9001&label=feature%20requests)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
+[![Closed Issues](https://img.shields.io/github/issues-closed/sligh-games/amplify-godot-engine-custom-build-image?color=%2325CC00&label=issues%20closed)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aclosed+)
 
 This project contains a docker file to create a custom build image for building and exporting Godot Engine games for all supported platforms.
 
@@ -11,25 +11,31 @@ _Note: "The sample code; software libraries; command line tools; proofs of conce
 
 ## Quickstart
 
-If you need step by step tutorials you can use our [quicktstarts](https://github.com/sligh-games/godot-engine/wiki/Create-a-New-Game) or explore [labs](https://github.com/sligh-games/godot-engine/wiki) on the wiki.
+If you need step by step tutorials you can use our [quicktstarts](https://docs.sligh.games/) or explore [labs](https://docs.sligh.games/) on the wiki.
 
 ## Images
 
-Sligh Games Godot Engine Custom Build Images can be found on our Container Registry
+Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public Gallery](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
 
 ### Latest
 
-| Version | Tag | URI | 
-| --- | --- | --- | 
-| [4.3](https://godotengine.org/download/archive/4.3-stable) | ```sligh-games-godot-engine/4.3``` | ```registry.sligh.games/godot-engine:4.3``` |
+| Version | Tag | URI | Repository URL |
+| --- | --- | --- | --- |
+| [4.4.1](https://godotengine.org/download/archive/4.4.1-stable) | ```amplify-godot-engine:4.4.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4.1``` | [amplify-godot-engine:4.4.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.4.1) |
 
 ### Stable
 
-| Version | Tag | URI |
-| --- | --- | --- | 
-| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | ```sligh-games-godot-engine/4.2.2``` | ```registry.sligh.games/godot-engine:4.2.2``` |
-| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```sligh-games-godot-engine/4.2.1``` | ```registry.sligh.games/godot-engine:4.2.1``` |
-| [4.2](https://godotengine.org/download/archive/4.2-stable) | ```sligh-games-godot-engine/4.2``` | ```registry.sligh.games/godot-engine:4.2``` |
+| Version | Tag | URI | Repository URL |
+| --- | --- | --- | --- |
+| [4.4](https://godotengine.org/download/archive/4.4-stable) | ```amplify-godot-engine:4.4``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4``` | [amplify-godot-engine:4.4](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.4) |
+| [4.3](https://godotengine.org/download/archive/4.3-stable) | ```amplify-godot-engine:4.3``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.3``` | [amplify-godot-engine:4.3](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.3) |
+| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | ```amplify-godot-engine:4.2.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.2``` | [amplify-godot-engine:4.2.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2.2) |
+| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```amplify-godot-engine:4.2.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.1``` | [amplify-godot-engine:4.2.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2.1) |
+| [4.2](https://godotengine.org/download/archive/4.2-stable) | ```amplify-godot-engine:4.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2``` | [amplify-godot-engine:4.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2) |
+| [4.1.3](https://godotengine.org/download/archive/4.1.3-stable) | ```amplify-godot-engine:4.1.3``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.3``` | [amplify-godot-engine:4.1.3](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.3) |
+| [4.1.2](https://godotengine.org/download/archive/4.1.2-stable) | ```amplify-godot-engine:4.1.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.2``` | [amplify-godot-engine:4.1.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.2) |
+| [4.1.1](https://godotengine.org/download/archive/4.1.1-stable) | ```amplify-godot-engine:4.1.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.1``` | [amplify-godot-engine:4.1.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.1) |
+| [4.1](https://godotengine.org/download/archive/4.1-stable) | ```amplify-godot-engine:4.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1``` | [amplify-godot-engine:4.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1) |
 
 ## Discussions
 
@@ -37,6 +43,7 @@ If you have a question or you want to discuss with the Sligh Games Godot Engine 
 
 [![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames)
 [![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
+[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=disamplifycord&label=AWS%Amplify)](https://discord.gg/awsamplify)
 
 ## Issues
 
