@@ -11,7 +11,7 @@ _Note: "The sample code; software libraries; command line tools; proofs of conce
 
 ## Quickstart
 
-If you need step by step tutorials you can use our [quicktstarts](https://docs.sligh.games/){:target="_blank"} or explore [labs](https://docs.sligh.games/){:target="_blank"} on the wiki.
+If you need step by step tutorials you can use our [quicktstarts](https://docs.sligh.games/#!/en/amplify-godot/get-started){:target="_blank"} or explore [labs](https://docs.sligh.games/#!/en/amplify-godot){:target="_blank"} on the wiki.
 
 ## Images
 
@@ -43,7 +43,7 @@ If you have a question or you want to discuss with the Sligh Games community go 
 
 [![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames){:target="_blank"}
 [![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine){:target="_blank"}
-[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=disamplifycord&label=AWS%Amplify)](https://discord.gg/amplify){:target="_blank"}
+[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=awsamplify&label=AWS%20Amplify)](https://discord.gg/amplify){:target="_blank"}
 
 ## Issues
 
