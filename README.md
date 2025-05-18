@@ -41,9 +41,9 @@ Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public
 
 If you have a question or you want to discuss with the Sligh Games community go to the main project [discussions](https://github.com/sligh-games/discussions) channels.
 
-[![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames)
+[![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/qN2q77zNDa)
 [![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
-[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=awsamplify&label=AWS%20Amplify)](https://discord.gg/amplify)
+[![join aws amplify discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=AWS%20Amplify)](https://discord.gg/amplify)
 
 ## Issues
 
