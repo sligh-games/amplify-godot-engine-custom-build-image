@@ -50,7 +50,7 @@ For more information see the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file.
 
 
 ## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify Sligh Games Security via email. Please do **not** create a public github issue.
+If you discover a potential security issue in this project we ask that you notify Sligh Games Security via email at [security@sligh.games](mailto:security@sligh.games). Please do **not** create a public github issue.
 
 
 ## Licensing

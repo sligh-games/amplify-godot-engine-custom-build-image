@@ -3,3 +3,5 @@
 `Godot Engine Documentation` Copyright &copy; 2007-present [Authors](https://github.com/godotengine/godot-docs/blob/master/AUTHORS.md), [CC-BY 3.0: Attribution](http://creativecommons.org/licenses/by/3.0/), Source: https://github.com/godotengine/godot-docs/
 
 `Godot CI` Copyright &copy; 2018 Barichello, [MIT: Attribution](https://github.com/abarichello/godot-ci/blob/master/LICENSE) Source: https://github.com/abarichello/godot-ci/
+
+`AWS Amplify` Copyright &copy; 2017-present, Amazon.com, Inc. or its affiliates. All Rights Reserved. [Apache License 2.0](https://github.com/aws-amplify/amplify-js/blob/main/LICENSE). Source: https://github.com/aws-amplify/amplify-js
