@@ -11,39 +11,39 @@ _Note: "The sample code; software libraries; command line tools; proofs of conce
 
 ## Quickstart
 
-If you need step by step tutorials you can use our [quicktstarts](https://docs.sligh.games/#!/en/amplify-godot/get-started){:target="_blank"} or explore [labs](https://docs.sligh.games/#!/en/amplify-godot){:target="_blank"} on the wiki.
+If you need step by step tutorials you can use our [quicktstarts](https://docs.sligh.games/#!/en/amplify-godot/get-started) or explore [labs](https://docs.sligh.games/#!/en/amplify-godot) on the wiki.
 
 ## Images
 
-Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public Gallery](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine){:target="_blank"}
+Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public Gallery](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
 
 ### Latest
 
 | Version | Image URI | Changelog |
 | --- | --- | --- |
-| [4.4.1](https://godotengine.org/download/archive/4.4.1-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4.1``` | [4.4.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.4.1-stable){:target="_blank"} |
+| [4.4.1-stable](https://godotengine.org/download/archive/4.4.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4.1``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.4.1-stable) |
 
 ### Stable
 
 | Version | Image URI | Changelog |
 | --- | --- | --- |
-| [4.4](https://godotengine.org/download/archive/4.4-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4``` | [4.4-stable](https://godotengine.github.io/godot-interactive-changelog/#4.4-stable){:target="_blank"} |
-| [4.3](https://godotengine.org/download/archive/4.3-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.3``` | [4.3-stable](https://godotengine.github.io/godot-interactive-changelog/#4.3-stable){:target="_blank"} |
-| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.2``` | [4.2.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2.2-stable){:target="_blank"} |
-| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.1``` | [4.2.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2.1-stable){:target="_blank"} |
-| [4.2](https://godotengine.org/download/archive/4.2-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2``` | [4.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2-stable){:target="_blank"} |
-| [4.1.3](https://godotengine.org/download/archive/4.1.3-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.3``` | [4.1.3-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.3-stable){:target="_blank"} |
-| [4.1.2](https://godotengine.org/download/archive/4.1.2-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.2``` | [4.1.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.2-stable){:target="_blank"} |
-| [4.1.1](https://godotengine.org/download/archive/4.1.1-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.1``` | [4.1.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.1-stable){:target="_blank"} |
-| [4.1](https://godotengine.org/download/archive/4.1-stable){:target="_blank"} | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1``` | [4.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1-stable){:target="_blank"} |
+| [4.4-stable](https://godotengine.org/download/archive/4.4-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.4-stable) |
+| [4.3-stable](https://godotengine.org/download/archive/4.3-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.3``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.3-stable) |
+| [4.2.2-stable](https://godotengine.org/download/archive/4.2.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.2``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.2.2-stable) |
+| [4.2.1-stable](https://godotengine.org/download/archive/4.2.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.1``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.2.1-stable) |
+| [4.2-stable](https://godotengine.org/download/archive/4.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.2-stable) |
+| [4.1.3-stable](https://godotengine.org/download/archive/4.1.3-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.3``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.1.3-stable) |
+| [4.1.2-stable](https://godotengine.org/download/archive/4.1.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.2``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.1.2-stable) |
+| [4.1.1-stable](https://godotengine.org/download/archive/4.1.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.1``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.1.1-stable) |
+| [4.1-stable](https://godotengine.org/download/archive/4.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1``` | [View](https://godotengine.github.io/godot-interactive-changelog/#4.1-stable) |
 
 ## Discussions
 
-If you have a question or you want to discuss with the Sligh Games community go to the main project [discussions](https://github.com/sligh-games/discussions){:target="_blank"} channels.
+If you have a question or you want to discuss with the Sligh Games community go to the main project [discussions](https://github.com/sligh-games/discussions) channels.
 
-[![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames){:target="_blank"}
-[![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine){:target="_blank"}
-[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=awsamplify&label=AWS%20Amplify)](https://discord.gg/amplify){:target="_blank"}
+[![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames)
+[![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
+[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=awsamplify&label=AWS%20Amplify)](https://discord.gg/amplify)
 
 ## Issues
 
