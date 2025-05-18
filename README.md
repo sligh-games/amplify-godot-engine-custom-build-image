@@ -1,6 +1,6 @@
 ## AWS Amplify Godot Engine - Custom Build Image
 
-[![GitHub release](https://img.shields.io/github/release/sligh-games/amplify-godot-engine-custom-build-image)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/releases)
+[![GitHub release](https://img.shields.io/github/releases/sligh-games/amplify-godot-engine-custom-build-image)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/releases)
 [![Open Bugs](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/bug?color=d73a4a&label=bugs)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 [![Feature Requests](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/feature-request?color=ff9001&label=enhancement)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Aenhancement+is%3Aopen)
 [![Closed Issues](https://img.shields.io/github/issues-closed/sligh-games/amplify-godot-engine-custom-build-image?color=%2325CC00&label=issues%20closed)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aclosed+)
@@ -64,7 +64,7 @@ If you have any issue with a custom build image [report a bug](https://github.co
 
 ## Contributing
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See [CONTRIBUTING](CONTRIBUTING.md) for more information.
 
 ## License
 
