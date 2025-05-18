@@ -19,23 +19,23 @@ Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public
 
 ### Latest
 
-| Version | Tag | URI | Repository URL |
-| --- | --- | --- | --- |
-| [4.4.1](https://godotengine.org/download/archive/4.4.1-stable) | ```amplify-godot-engine:4.4.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4.1``` | [amplify-godot-engine:4.4.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.4.1) |
+| Version | Image URI | Changelog |
+| --- | --- | --- |
+| [4.4.1](https://godotengine.org/download/archive/4.4.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4.1``` | [4.4.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.4.1-stable) |
 
 ### Stable
 
-| Version | Tag | URI | Repository URL |
-| --- | --- | --- | --- |
-| [4.4](https://godotengine.org/download/archive/4.4-stable) | ```amplify-godot-engine:4.4``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4``` | [amplify-godot-engine:4.4](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.4) |
-| [4.3](https://godotengine.org/download/archive/4.3-stable) | ```amplify-godot-engine:4.3``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.3``` | [amplify-godot-engine:4.3](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.3) |
-| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | ```amplify-godot-engine:4.2.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.2``` | [amplify-godot-engine:4.2.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2.2) |
-| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```amplify-godot-engine:4.2.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.1``` | [amplify-godot-engine:4.2.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2.1) |
-| [4.2](https://godotengine.org/download/archive/4.2-stable) | ```amplify-godot-engine:4.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2``` | [amplify-godot-engine:4.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.2) |
-| [4.1.3](https://godotengine.org/download/archive/4.1.3-stable) | ```amplify-godot-engine:4.1.3``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.3``` | [amplify-godot-engine:4.1.3](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.3) |
-| [4.1.2](https://godotengine.org/download/archive/4.1.2-stable) | ```amplify-godot-engine:4.1.2``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.2``` | [amplify-godot-engine:4.1.2](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.2) |
-| [4.1.1](https://godotengine.org/download/archive/4.1.1-stable) | ```amplify-godot-engine:4.1.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.1``` | [amplify-godot-engine:4.1.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1.1) |
-| [4.1](https://godotengine.org/download/archive/4.1-stable) | ```amplify-godot-engine:4.1``` | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1``` | [amplify-godot-engine:4.1](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine/4.1) |
+| Version | Image URI | Changelog |
+| --- | --- | --- |
+| [4.4](https://godotengine.org/download/archive/4.4-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.4``` | [4.4-stable](https://godotengine.github.io/godot-interactive-changelog/#4.4-stable) |
+| [4.3](https://godotengine.org/download/archive/4.3-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.3``` | [4.3-stable](https://godotengine.github.io/godot-interactive-changelog/#4.3-stable) |
+| [4.2.2](https://godotengine.org/download/archive/4.2.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.2``` | [4.2.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2.2-stable) |
+| [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2.1``` | [4.2.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2.1-stable) |
+| [4.2](https://godotengine.org/download/archive/4.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.2``` | [4.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.2-stable) |
+| [4.1.3](https://godotengine.org/download/archive/4.1.3-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.3``` | [4.1.3-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.3-stable) |
+| [4.1.2](https://godotengine.org/download/archive/4.1.2-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.2``` | [4.1.2-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.2-stable) |
+| [4.1.1](https://godotengine.org/download/archive/4.1.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1.1``` | [4.1.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1.1-stable) |
+| [4.1](https://godotengine.org/download/archive/4.1-stable) | ```public.ecr.aws/p2e1p0d6/amplify-godot-engine:4.1``` | [4.1-stable](https://godotengine.github.io/godot-interactive-changelog/#4.1-stable) |
 
 ## Discussions
 
