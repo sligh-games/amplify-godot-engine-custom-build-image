@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/sligh-games/amplify-godot-engine-custom-build-image)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/releases)
 [![Open Bugs](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/bug?color=d73a4a&label=bugs)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Feature Requests](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/feature-request?color=ff9001&label=feature%20requests)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
+[![Feature Requests](https://img.shields.io/github/issues/sligh-games/amplify-godot-engine-custom-build-image/feature-requests?color=ff9001&label=feature%20requests)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+label%3Afeature-request+is%3Aopen)
 [![Closed Issues](https://img.shields.io/github/issues-closed/sligh-games/amplify-godot-engine-custom-build-image?color=%2325CC00&label=issues%20closed)](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues?q=is%3Aissue+is%3Aclosed+)
 
 This project contains a docker file to create a custom build image for AWS Amplify CI/CD to build and export Godot Engine games for all supported platforms.
@@ -15,7 +15,7 @@ If you need step by step tutorials you can use our [quicktstarts](https://docs.s
 
 ## Images
 
-Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public Gallery](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
+AWS Amplify Godot Engine Custom Build Images can be found on our [Sligh Games AWS ECR Gallery](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
 
 ### Latest
 
@@ -42,8 +42,8 @@ Sligh Games Godot Engine Custom Build Images can be found on our [AWS ECR Public
 If you have a question or you want to discuss with the Sligh Games community go to the main project [discussions](https://github.com/sligh-games/discussions) channels.
 
 [![join sligh games discord](https://img.shields.io/discord/1371568283307868190?logo=discord&label=Sligh%20Games)](https://discord.gg/qN2q77zNDa)
-[![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
 [![join aws amplify discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=AWS%20Amplify)](https://discord.gg/amplify)
+[![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
 
 ## Issues
 
