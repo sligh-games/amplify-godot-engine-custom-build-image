@@ -48,6 +48,7 @@ AWS Amplify Godot Engine Custom Build Images can be found on our [AWS Amplify Go
 ## Discussions
 
 Join our community to get help, share ideas, and collaborate:
+
 [![join sligh games discord](https://img.shields.io/discord/1371568283307868190?logo=discord&label=Sligh%20Games)](https://discord.gg/qN2q77zNDa)
 [![join aws amplify discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=AWS%20Amplify)](https://discord.gg/amplify)
 [![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
