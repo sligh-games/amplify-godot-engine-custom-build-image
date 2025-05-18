@@ -31,10 +31,6 @@ Sligh Games Godot Engine Custom Build Images can be found on our Container Regis
 | [4.2.1](https://godotengine.org/download/archive/4.2.1-stable) | ```sligh-games-godot-engine/4.2.1``` | ```registry.sligh.games/godot-engine:4.2.1``` |
 | [4.2](https://godotengine.org/download/archive/4.2-stable) | ```sligh-games-godot-engine/4.2``` | ```registry.sligh.games/godot-engine:4.2``` |
 
-## Wiki
-
-The [wiki](https://github.com/sligh-games/godot-engine/wiki) contains everything you want to know about getting started with Sligh Games Godot Engine.
-
 ## Discussions
 
 If you have a question or you want to discuss with the Sligh Games Godot Engine community go to the main project [discussions](https://github.com/sligh-games/godot-engine/discussions) channels.
