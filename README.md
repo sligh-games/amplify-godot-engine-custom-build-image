@@ -43,11 +43,11 @@ If you have a question or you want to discuss with the Sligh Games Godot Engine 
 
 [![join sligh games discord](https://img.shields.io/discord/308323056592486420?logo=discord&label=Sligh%20Games)](https://discord.gg/slighgames)
 [![join godot engine discord](https://img.shields.io/discord/1235157165589794909?logo=discord&label=Godot%20Engine)](https://discord.gg/godotengine)
-[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=disamplifycord&label=AWS%Amplify)](https://discord.gg/awsamplify)
+[![join aws amplify discord](https://img.shields.io/discord/1235157165589794909?logo=disamplifycord&label=AWS%Amplify)](https://discord.gg/amplify)
 
 ## Issues
 
-If you have any issue with a custom build image [report a bug](https://github.com/sligh-games/godot-engine-custom-build-image/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=) and if you need a new image or something else [create a feature request](https://github.com/sligh-games/godot-engine-custom-build-image/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=).
+If you have any issue with a custom build image [report a bug](https://github.com/amplify-sligh-games/godot-engine-custom-build-image/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=) and if you need a new image or something else [create a feature request](https://github.com/sligh-games/amplify-godot-engine-custom-build-image/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=).
 
 ## Security
 
