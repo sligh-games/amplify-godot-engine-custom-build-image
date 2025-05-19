@@ -14,6 +14,9 @@ A production-ready Docker image solution that enables seamless CI/CD workflows f
 - **Version Flexibility**: Multiple Godot versions available (4.1 through 4.4.1)
 - **Production Ready**: Used by game studios to streamline their deployment pipelines
 - **Extensible**: Built on the established Godot CI image with additional AWS-specific tooling
+## Documentation
+
+For comprehensive documentation, tutorials, and examples, visit our [official documentation](https://docs.sligh.games/#!/en/amplify-godot).
 
 ## Getting Started
 
@@ -21,7 +24,7 @@ Jump right into your Godot CI/CD pipeline with our comprehensive resources:
 - **Quick Setup**: Follow our [quickstart guides](https://docs.sligh.games/#!/en/amplify-godot/get-started) for step-by-step implementation
 - **Advanced Usage**: Explore [interactive labs](https://docs.sligh.games/#!/en/amplify-godot) for deeper integration scenarios
 
-## Releases
+## Container Images
 
 AWS Amplify Godot Engine Custom Build Images can be found on our [AWS Amplify Godot Engine Images](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
 
