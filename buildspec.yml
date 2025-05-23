@@ -5,7 +5,7 @@ env:
     REGISTRY_TYPE: "public"
     REGISTRY_NAME: ""
     REPOSITORY_NAME: "sligh-games"
-    IMAGE_NAME: "amplify"
+    IMAGE_NAME: "amplify-godot-engine"
     IMAGE_TAG: ""
   exported-variables:
     - REPOSITORY_URI
