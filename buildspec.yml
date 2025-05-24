@@ -50,7 +50,7 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - if [ "$IMAGE_MUTABILITY" = "mutable" ]; then docker push $REPOSITORY_URI:latest fi
+      - if [ "$IMAGE_MUTABILITY" = "mutable" ]; then docker push $REPOSITORY_URI:latest; fi
       - echo Writing image definitions file...
       - echo "{\"ImageURI\":\"$REPOSITORY_URI:$IMAGE_TAG\"}" > imageDefinition.json
 
