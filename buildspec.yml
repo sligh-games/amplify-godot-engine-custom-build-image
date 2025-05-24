@@ -7,7 +7,7 @@ env:
     REGISTRY_NAME: ""
     REPOSITORY_NAME: "sligh-games"
     IMAGE_MUTABILITY: "mutable"
-    IMAGE_NAME: "amplify"
+    IMAGE_NAME: "amplify-godot-engine"
     IMAGE_TAG: ""
   exported-variables:
     - REPOSITORY_URI
