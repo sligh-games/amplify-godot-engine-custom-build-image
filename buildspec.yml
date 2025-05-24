@@ -3,9 +3,11 @@ version: 0.2
 env:
   variables:
     REGISTRY_TYPE: "public"
+    REGISTRY_REGION: ""
     REGISTRY_NAME: ""
     REPOSITORY_NAME: "sligh-games"
-    IMAGE_NAME: "amplify-godot-engine"
+    IMAGE_MUTABILITY: "mutable"
+    IMAGE_NAME: "amplify"
     IMAGE_TAG: ""
   exported-variables:
     - REPOSITORY_URI
@@ -14,14 +16,15 @@ phases:
   pre_build:
     commands:
       - echo "Logging in to Amazon ECR ($REGISTRY_TYPE)..."
+      - if [ -z "$REGISTRY_REGION" ]; then REGISTRY_REGION=$AWS_DEFAULT_REGION; fi;
       - if [ "$REGISTRY_TYPE" = "public" ]; then
           if [ -z "$REGISTRY_NAME" ]; then REGISTRY_NAME="public.ecr.aws"; fi;
           aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $REGISTRY_NAME;
           REPOSITORY_URI=$REGISTRY_NAME/$REPOSITORY_NAME/$IMAGE_NAME;
         else
           if [ -z "$REGISTRY_NAME" ]; then REGISTRY_NAME=$AWS_ACCOUNT_ID; fi;
-          aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $REGISTRY_NAME.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com;
-          REPOSITORY_URI=$REGISTRY_NAME.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_NAME;
+          aws ecr get-login-password --region $REGISTRY_REGION | docker login --username AWS --password-stdin $REGISTRY_NAME.dkr.ecr.$REGISTRY_REGION.amazonaws.com;
+          REPOSITORY_URI=$REGISTRY_NAME.dkr.ecr.$REGISTRY_REGION.amazonaws.com/$REPOSITORY_NAME/$IMAGE_NAME;
         fi
       - if [ -z "$IMAGE_TAG" ]; then
           COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7);
@@ -29,8 +32,9 @@ phases:
         fi
       - echo "=== Variables ==="
       - echo "REGISTRY_TYPE=$REGISTRY_TYPE"
-      - echo "REGISTRY_NAME=$REGISTRY_NAME"
-      - echo "REPOSITORY_NAME=$REPOSITORY_NAME"
+      - echo "REGISTRY_REGION=$REGISTRY_REGION"
+      - echo "REGISTRY_REGION=$REGISTRY_REGION"
+      - echo "IMAGE_MUTABILITY=$IMAGE_MUTABILITY"
       - echo "IMAGE_NAME=$IMAGE_NAME"
       - echo "IMAGE_TAG=$IMAGE_TAG"
       - echo "REPOSITORY_URI=$REPOSITORY_URI"
@@ -39,14 +43,16 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build --build-arg GODOT_VERSION=$IMAGE_TAG -t $REPOSITORY_URI:latest .
+      - docker build -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - docker push $REPOSITORY_URI:latest
+      - if [ "$IMAGE_MUTABILITY" = "mutable" ]; then
+          docker push $REPOSITORY_URI:latest
+        fi
       - echo Writing image definitions file...
       - echo "{\"ImageURI\":\"$REPOSITORY_URI:$IMAGE_TAG\"}" > imageDefinition.json
 
@@ -59,26 +65,3 @@ artifacts:
 cache:
   paths:
     - '/root/.npm/**/*'
-
-
-#version: 0.2
-
-#phases:
-#  pre_build:
-#    commands:
-#      - echo Logging in to Amazon ECR...
-#      - ECR_PUBLIC_REGISTRY=public.ecr.aws
-#      - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin $ECR_PUBLIC_REGISTRY
-#  build:
-#    commands:
-#      - echo Build started on `date`
-#      - echo Building the Docker image...      
-#      - ECR_PUBLIC_REPOSITORY=$ECR_PUBLIC_REGISTRY/p2e1p0d6
-#      - GODOT_IMAGE_NAME=amplify-godot-engine
-#      - docker build --build-arg GODOT_VERSION=$GODOT_VERSION -t $GODOT_IMAGE_NAME:$GODOT_VERSION .
-#      - docker tag $GODOT_IMAGE_NAME:$GODOT_VERSION $ECR_PUBLIC_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
-#  post_build:
-#    commands:
-#      - echo Build completed on `date`
-#      - echo Pushing the Docker image...
-#      - docker push $ECR_PUBLIC_REPOSITORY/$GODOT_IMAGE_NAME:$GODOT_VERSION
