@@ -26,7 +26,7 @@ Jump right into your Godot CI/CD pipeline with our comprehensive resources:
 
 ## Container Images
 
-AWS Amplify Godot Engine Custom Build Images can be found on our [AWS Amplify Godot Engine Images](https://gallery.ecr.aws/p2e1p0d6/amplify-godot-engine)
+AWS Amplify Godot Engine Custom Build Images can be found on our [AWS Amplify Godot Engine Images](https://gallery.ecr.aws/sligh-games/amplify-godot-engine)
 
 ### Latest
 
